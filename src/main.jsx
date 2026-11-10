@@ -6,5 +6,6 @@ import About from './About.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <About />
+    <Projects />
   </StrictMode>,
 )
