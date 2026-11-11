@@ -12,18 +12,15 @@ function About() {
         </h1>
         <div className="about-grid">
           <div>
-            <code>- I am a Pan-Atantic University Student, studying Computer Science in my final year.</code>
-            <code>- I play video games and code in my spare time.</code><br></br>
-            <code>- I decided that I wanted to become a software developer with a backend focus.</code>
-            <code>- I have built several applications over the years with my time in Computer Science.</code>
-            <code>- I may not have all my projects saved somewhere but I can showcase some that I have worked on.</code>
+            <p><code>- I am a Pan-Atantic University Student, studying Computer Science in my final year.</code></p>
+            <p><code>- I play video games and code in my spare time.</code></p>
+            <p><code>- I decided that I wanted to become a software developer with a backend focus.</code></p>
+            <p><code>- I have built several applications over the years with my time in Computer Science.</code></p>
+            <p><code>- I may not have all my projects saved somewhere but I can showcase some that I have worked on.</code></p>
           </div>
         </div>
-      </section>
 
-      <section id='contact'>
-        If you would like to reach out to me, you can do so via the links below: <br></br>
-        
+       <h3>If you would like to reach out to me, you can do so via the links below:</h3>
         <div className="social-links">
           <a href="mailto:jrmoladele@gmail.com">
             <img src={email} alt="Email" />
