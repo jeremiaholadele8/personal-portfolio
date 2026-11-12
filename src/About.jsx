@@ -22,7 +22,10 @@ function About() {
 
        <h3>If you would like to reach out to me, you can do so via the links below:</h3>
         <div className="social-links">
-          <a href="mailto:jrmoladele@gmail.com">
+          <a
+            href="mailto:jrmoladele@gmail.com"
+            aria-label="Email Jeremiah"
+          >
             <img src={email} alt="Email" />
           </a>
 
@@ -30,7 +33,7 @@ function About() {
             <img src={github} alt="GitHub" />
           </a>
 
-          <a href="https://linkedin.com/in/your-profile">
+          <a href="https://www.linkedin.com/in/jeremiah-oladele-7a2955361">
             <img src={linkedin} alt="LinkedIn" />
           </a>
         </div>
